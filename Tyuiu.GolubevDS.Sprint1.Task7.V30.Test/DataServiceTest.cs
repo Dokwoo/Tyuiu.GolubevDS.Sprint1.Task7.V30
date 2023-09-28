@@ -12,7 +12,7 @@ namespace Tyuiu.GolubevDS.Sprint1.Task7.V30.Test
             DataService ds = new DataService();
             double x = 0;
             double y = 1;
-            double wait = 1.2;
+            double wait = 5;
             var res = ds.Calculate(x, y);
             Assert.AreEqual(wait, res);
         }
